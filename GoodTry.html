@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- This HTML document shows all minor funcrions of the language in one clear and concise view. Enjoy! -->
+	
+<html>
+	<head>
+		<title> This is a Title (/title) </title>
+	</head>
+	
+	
+	<body>
+		<div name="heading">
+			<h1> This is a Heading (/h1) </h1>
+		</div>
+		<hr/>
+		
+		<h3> This section is on formatting (/h3) </h3>
+		
+		<div name = "formatting">
+			<p>
+				This is normal text. I can jump to newline by using (br/) - no end tag needed<br/>
+				<b> This is bold text (/b) </b><br/>
+				<strong> This is strong text (/strong) </strong><br/>
+				<i> This is italicized text (/i) </i><br/>
+				<em> This is important text (/em) </em>
+				<sub> This is subscrited text (/sub) </sub>
+				<sup> This is superscripted text (/sup) </sup><br/>
+				<ins> This is inserted text (/ins) </ins><br/>
+				<del> This is deleted text (/del) </del><br/>
+				
+				<br/>Below is an ordered list (/ol), (note that /ol is the parent node to /li)<br/>
+				<ol> 
+					<li> one (/li) </li>
+					<li> two  </li>
+					<LI> THREE! </li>
+				</ol>
+				<br/> Below is an unordered list<br/>
+				<ul>
+					<li> not </li>
+					<li> as </li>
+					<li> exciting... </li>
+				</ul></br>
+				
+				<br/>Below is a table (/table) which is divided into rows (/tr) and divisions of rows (columns) by (/td)<br/><br/>
+				<table>
+					<tr>
+						<td> D1 </td>
+						<td> D2 </td>
+						<td> D3 </td>
+					</tr>
+					<tr>
+						<td> data </td>
+						<td> data </td>
+						<td> data </td>
+					</tr>
+					<tr>
+						<td> data </td>
+						<td> data </td>
+						<td> data </td>
+					</tr>
+				</table><br/>
+				
+			</p>
+		</div>
+		<br/><br/>
+		
+		<h3> This section is on attributes </h3>
+		
+		<div name="attributes">
+			<p name="nameAtrb" id="idAtrib"> Try to name and id your big blocks of code. name="name" id="id" </p><br/>
+			<p align="left"> align="left" </p><br/>
+			<p align="center"> align="center" </p><br/>
+			<p align="right"> align="right" </p><br/>
+      
+			<small>border="2"</small>
+			<table border="2">
+				<tr>
+					<td> D1 </td>
+					<td> D2 </td>
+					<td> D3 </td>
+				</tr>
+				<tr>
+					<td rowspan="2"> rowspan="2" </td>
+					<td colspan="2"> colspan="2" </td>
+				</tr>
+				<tr>
+					<td> data </td>
+					<td bgcolor="blue"> bgcolor="blue" </td>
+				</tr>
+					
+			</table><br/>
+      
+			<small> src="Larry Bird.jpg" width=350px height=400px border=1px alt="Larry Bird.jpg" </small><br/>	
+			<img src="Larry Bird.jpg" width=350px height=400px border=1px alt="Larry Bird.jpg"/><br/> <!-- alt="" is nessesary for <img> tag -->
+      
+		</div>
+		<br/><br/>
+		
+		<h3> This section is on other element stuff </h3>
+		
+		<div name = "element">
+			<p> 
+				(/div) is used as a block container for other HTML elements. <br/><br/>
+				(/span) is the inline container for HTML elements.<br/>
+				Style text with (/span): <span style="color:red"> style=color:red </span> <!-- This includes some CSS -->
+			</p><br/>
+      
+			<form>
+				<p> 
+					Use (/form) to enclose information that is being collected by the user. <br/>
+					Below are some input types 
+				</p>
+        
+				<input type="text" name=username/>(input type="text" name="username"/)<sub> no need for endtag </sub><br/>
+				<input type="password" name="password"/> (input type="password" name="password"/) <br/>
+				<input type="email" name="email"/> (input type="email" name="name") <br/>
+				<textarea> Use (/textarea) for large amounts of typed input </textarea><br/>
+        
+				<p> To get "multiple choice" input: type="radio"</p>
+				<input type="radio" name="option" value="1"/> name=option value="1"/ <br/>
+				<input type="radio" name="option" value="2"/> name=option value="2"/ <br/>
+        
+				<p> To get a "pick all that apply" input: type="checkbox"</p> 
+				<input type="checkbox" name="check" value="1"/> name="check" value="1"/ <br/> 
+				<input type="checkbox" name="check" value="2"/> name="check" value="2"/ <br/> 
+				<input type="checkbox" name="check" value="3"/> name="check" value="3"/ <br/> 
+				<input type="checkbox" name="check" value="4"/> name="check" value="4"/ <br/> 
+        
+				<p> To submit to the (/form) use: (input type="submit" value="submit"/) </p>
+				<input type="submit" value="submit"/> (input type="submit"/) <br/>
+			</form><br/>
+      
+			<a href= "http://www.google.com"> This text is linked to google (/a href= "http://www.google.com") </a><br/>
+			<br/><button> button </button><br/>
+		</div>
+		
+	</body>
+</html>
